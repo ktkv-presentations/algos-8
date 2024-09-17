@@ -20,136 +20,1114 @@
 	<div class="reveal">
 		<div class="slides">
 			<section>
-				<h1>
-					Beautiful presentations
-				</h1>
-				<h2>New features</h2>
-				<ul>
-					<li>Nerd icons </li>
-					<li><code class="js">(inline) => code("highlighting")</code></li>
-					<li>Automatic QR Code generation</li>
-					<li>and much more!</li>
-				</ul>
-			</section>
-			<section>
-				<h1>
-					Custom TokyoNight theme
-				</h1>
-				<h2 class="fragment">That has</h2>
-				<h3 class="fragment">Multi</h3>
-				<h4 class="fragment">Level</h4>
-				<h5 class="fragment">Heading</h5>
-				<h6 class="fragment">Coloring</h6>
-				<h6>Thanks to this project <a href="https://github.com/tcmmichaelb139/obsidian-tokyonight"></a> for the
-					colorscheme!</h6>
+				<h1>Git </h1>
+				<img class="r-stretch" alt="ktkv-presentations.github.io/algos-8" data-type="qrcode">
 			</section>
 			<section>
 				<section>
-					<h1>Tailwind CSS</h1>
-					<div class="grid grid-cols-2 gap-8">
-						<div>
-							<h5>Lorem, ipsum.</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod fugiat harum modi laboriosam
-								dignissimos, maxime possimus? Error, nihil in.</p>
+					<h1>Version Control System (VCS)</h1>
+					<h3>Система управления версиями</h3>
+					<p>инструмент, который помогает отслеживать и управлять изменениями в файлах проекта</p>
+				</section>
+				<section>
+					<h1>BEWARE OF THE PIPELINE</h1>
+					<img src="https://i.redd.it/ln618pt684b71.jpg" class="r-stretch" alt="">
+				</section>
+				<section>
+					<h1>Основные задачи VCS</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Отслеживание изменений</h4>
 						</div>
-						<div>
-							<h5>Lorem, ipsum.</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod fugiat harum modi laboriosam
-								dignissimos, maxime possimus? Error, nihil in.</p>
+						<div class="border-b">
+							<h4>Хранение версий</h4>
 						</div>
-						<div class="col-span-2">
-							<h5>Lorem, ipsum.</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod fugiat harum modi laboriosam
-								dignissimos, maxime possimus? Error, nihil in.</p>
+						<div class="border-b">
+							<h4>Совместная работа</h4>
+						</div>
+						<div class="border-b">
+							<h4>История изменений</h4>
+						</div>
+						<div class="border-b col-span-2">
+							<h4>Резервное копирование</h4>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="">
+					<h1>Типы систем управления версиями</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Локальные системы управления версиями</h4>
+							<h5>LVCS</h5>
+							<ul>
+								<li>работает только на одном компьютере</li>
+								<li>изменения сохраняются в виде различных версий файлов</li>
+								<li>невозможность совместной работы над проектом</li>
+							</ul>
+						</div>
+						<div class="border-b">
+							<h4>Централизованные системы управления версиями</h4>
+							<h5>CVCS</h5>
+							<ul>
+								<li>данные хранятся на одном центральном сервере</li>
+								<li>разработчики подключаются только для получения или отправки изменений</li>
+								<li>при недоступности центрального сервера работа над проектом может остановиться</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="">
+					<h1>Типы систем управления версиями</h1>
+					<div class="border-b">
+						<h4>Распределённые системы управления версиями</h4>
+						<h5>DVCS</h5>
+						<ul>
+							<li>каждая копия проекта, хранящаяся на компьютере пользователя</li>
+							<li>копия является полноценной версией репозитория</li>
+							<li>позволяет работать в автономном режиме, синхронизируя изменения с центральным сервером</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Git</h1>
+					<div class="border-b grid grid-cols-3 gap-4">
+						<p class="col-span-2">система управления версиями, предназначенная для отслеживания изменений в коде</p>
+						<div style="font-size: 4em;"></div>
+					</div>
+					<br>
+					<h4>Особенности работы</h4>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h5>Распределённость</h5>
+							<p>копия проекта хранится на компьютере пользователя</p>
+						</div>
+						<div class="border-b">
+							<h5>Безопасность</h5>
+							<p>каждая версия сохраняется и может быть восстановлена </p>
+						</div>
+						<div class="border-b col-span-2">
+							<h5>Эффективность</h5>
+							<p>git следит не за файлами, а за изменениями в них</p>
 						</div>
 					</div>
 				</section>
 				<section>
-					<h1>Custom classes</h1>
-					<div class="grid grid-cols-3 gap-8">
-						<div class="border-r">
-							<h5>border-r</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, soluta!</p>
+					<h1>Git</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<ul>
+								<li>Был разработан <code>Линусом Торвальдсом</code> в 2005 году</li>
+								<br>
+								<li>Изначально использовался для управления разработкой ядра Linux</li>
+								<br>
+								<li>С британского сленга означает "мерзкий человек"</li>
+							</ul>
 						</div>
-						<div class="border-o">
-							<h5>border-o</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, soluta!</p>
+						<div>
+							<img src="https://cdn.britannica.com/99/124299-050-4B4D509F/Linus-Torvalds-2012.jpg"
+								style="object-fit: cover;" width="70%" alt="">
 						</div>
-						<div class="border-y">
-							<h5>border-y</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, soluta!</p>
+					</div>
+				</section>
+				<section>
+					<h1>Основные понятия Git</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Репозиторий</h4>
+							<h5>repository</h5>
+							<p>хранилище проекта с полным набором всех файлов и историей изменений</p>
+						</div>
+						<div class="border-b">
+							<h4>Коммит</h4>
+							<h5>commit</h5>
+							<p>точки изменений в проекте</p>
+							<div class="mermaid">
+								<pre>
+gitGraph
+							commit
+						</pre>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h1>Основные понятия Git</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Ветвь</h4>
+							<h5>branch</h5>
+							<p>независимая линия разработки</p>
+							<div class="mermaid">
+								<pre>
+gitGraph
+							commit
+							commit
+							commit
+							commit
+						</pre>
+							</div>
+						</div>
+						<div class="border-b">
+							<h4>Удалённый репозиторий </h4>
+							<h5>remote repository</h5>
+							<p>сервер, на котором хранится репозиторий</p>
+							<div style="display: flex; justify-content: space-around; font-size: 2em;">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="border-b">
+						<h4>Слияние</h4>
+						<h5>merge</h5>
+						<p>объединение изменений из одной ветви в другую
+						</p>
+						<div class="mermaid">
+							<pre>
+gitGraph
+							commit
+							branch dev
+							commit
+							checkout main
+							merge dev
+						</pre>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h1>Основные понятия Git</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Клонирование</h4>
+							<h5>clone</h5>
+							<p>создание копии удалённого репозитория на локальной машине</p>
+						</div>
+						<div class="border-b">
+							<h4>Индекс</h4>
+							<h5>staging area</h5>
+							<p>область подготовки, где хранятся файлы, которые будут включены в следующий коммит</p>
 						</div>
 					</div>
 				</section>
 			</section>
 			<section>
-				<section data-auto-animate>
-					<h1>New code highlighting!</h1>
-					<div>
-						Now also has Tokyo Night <code>highlight.js</code> highlighting implementation
-					</div>
-					<pre><code data-trim data-noescape>
-var foo = {
-    bar: function () {
-             alert("Hello, World!");
-         }
-};	
+				<section>
+					<h1>Установка GIT</h1>
+					<iframe class="r-stretch" data-src="https://git-scm.com/"></iframe>
+				</section>
+				<section>
+					<h1>Установка GIT</h1>
+					<img class="r-stretch" alt="https://git-scm.com/" data-type="qrcode">
+				</section>
+				<section>
+					<h1>Если вы знаете, что делаете</h1>
+					<h4>Windows</h4>
+					<pre><code class="powershell" data-trim data-noescape>
+PS C:\Users\pasha> winget install git.git
+					</code></pre>
+					<h4>apt</h4>
+					<pre><code class="shell" data-trim data-noescape>
+pasha@localhost:~  sudo apt install git
+					</code></pre>
+					<h4>pacman</h4>
+					<pre><code class="shell" data-trim data-noescape>
+pasha@localhost:~  sudo pacman install git
 					</code></pre>
 				</section>
 				<section data-auto-animate>
-					<h1>New code highlighting!</h1>
-					<h5>Inline code highlighting is now also supported!</h5>
-					<p>
-						Just wrap your code with <code>&lt;code&gt;</code> tag and get
-						highlighting like this <code class="js">const foo = () => {return bar}</code>!
-					</p>
+					<div style="font-size: 6em;" class="grid grid-cols-3 gap-4">
+						<div data-id="supremacy-gui">GUI</div>
+						<div data-id="supremacy">
+							=</div>
+						<div data-id="supremacy-cli">CLI</div>
+					</div>
+				</section>
+				<section data-auto-animate>
+					<div style="font-size: 6em;" class="grid grid-cols-3 gap-4">
+						<div data-id="supremacy-gui">GUI</div>
+						<div data-id="supremacy">
+							&lt;</div>
+						<div data-id="supremacy-cli" style="color:var(--red)">CLI</div>
+					</div>
+					<img src="./assets/bellcurvememe.png" class="r-stretch" alt="">
+				</section>
+				<section>
+					<h1>weak zone</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>GitHub Desktop</h4>
+							<img
+								src="https://habrastorage.org/r/w780/getpro/habr/upload_files/bfa/082/1a3/bfa0821a37072afaef28fe79154d39bd.jpg"
+								alt="">
+						</div>
+						<div class="border-b">
+							<h4>Sourcetree</h4>
+							<img
+								src="https://habrastorage.org/r/w780/getpro/habr/upload_files/31f/0ad/be9/31f0adbe905ebf625d167dde60dd4538.jpg"
+								alt="">
+						</div>
+					</div>
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+					<h1>Работа с git</h1>
+				</section>
+				<section>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Создание репозитория</h4>
+							<code>$ git init [название проекта]</code>
+							<p>Можно инициировать без <code>[название проекта]</code></p>
+						</div>
+						<div class="border-b">
+							<h4>Клонирование репозитория</h4>
+							<code>$ git clone [url-адрес]</code>
+							<p><code>[url-адрес]</code> - адрес репозитория на GitHub, GitLab и тд.</p>
+						</div>
+						<div class="border-b">
+							<h4>Индексирование файла</h4>
+							<code>$ git add [файл]</code>
+							<p>Можно использовать <code>.</code>, чтобы проиндексировать все измененные файлы</p>
+						</div>
+						<div class="border-b">
+							<h4>Создание коммита</h4>
+							<code>$ git commit -m "[сообщение с описанием]"</code>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Различия прошлого коммита и непроиндексированных файлов</h4>
+							<code>git diff</code>
+							<p>Можно указать файл, если нужно смотреть разницу не всего проекта</p>
+						</div>
+						<div class="border-b">
+							<h4>Перечислить все изменения</h4>
+							<code>$ git status</code>
+						</div>
+						<div class="border-b">
+							<h4>Показывает различия файлов с последним коммитом</h4>
+							<code>$ git diff --staged</code>
+						</div>
+						<div class="border-b">
+							<h4>Отмена индексации файла (с сохранением изменений)</h4>
+							<code>$ git reset [файл]</code>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Различия прошлого коммита и непроиндексированных файлов</h4>
+							<code>$ git diff</code>
+							<p>Можно указать файл, если нужно смотреть разницу не всего проекта</p>
+						</div>
+						<div class="border-b">
+							<h4>Перечислить все изменения</h4>
+							<code>$ git status</code>
+						</div>
+						<div class="border-b">
+							<h4>Показывает различия файлов с последним коммитом</h4>
+							<code>$ git diff --staged</code>
+						</div>
+						<div class="border-b">
+							<h4>Отмена индексации файла (с сохранением изменений)</h4>
+							<code>$ git reset [файл]</code>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h4>Показать все ветки</h4>
+					<code>$ git branch</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ main ± git branch
+* main
+					</code></pre>
+					<div class="mermaid">
+						<pre>
+gitGraph
+							commit
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h4>Создаёт новую ветку</h4>
+					<code>$ git branch [имя ветки]</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ main ± git branch dev
+$ main ± git branch
+  dev
+* main
+					</code></pre>
+					<div class="mermaid">
+						<pre>
+gitGraph
+commit
+							branch dev
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h4>Переключение веток</h4><code>$ git checkout [имя ветки]</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code main ± git checkout dev
+Switched to branch 'dev'
+$ ~/my-code dev ± git branch
+* dev
+  main
+					</code></pre>
+					<div class="mermaid">
+						<pre>
+gitGraph
+commit
+							branch dev
+							checkout dev
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h4>Слияние [имя ветки] в текущую ветку</h4><code>$ git merge [имя ветки]</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code dev ± git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$ ~/my-code main ± git merge dev
+					</code></pre>
+					<div class="mermaid">
+						<pre>
+gitGraph
+commit
+							branch dev
+							commit
+							checkout main
+							merge dev
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h4>Показать коммиты в ветке</h4><code>$ git log</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code main(1) 130 ± git log --oneline
+5f230c7 (HEAD -> feature/tests) sync commit
+8bda223 fix: fix tests for factorial functions
+c4e9e7f test: add tests to factorial function
+7978f95 (origin/main, origin/HEAD, main, dev) update: created comment
+81495d6 feature: create factorial calculator
+					</code></pre>
+					<p>Можно использовать без <code>oneline</code></p>
+				</section>
+				<section>
+					<h4>Перейти к предыдущему коммиту</h4><code>$ git checkout [хэш коммита]
+					</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code main ± git checkout 7978f95
+Note: switching to '7978f95'.
+
+You are in 'detached HEAD' state.
+HEAD is now at 7978f95 update: created comment
+$ ~/my-code 7978f95 ±
+					</code></pre>
+				</section>
+				<section>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b">
+							<h4>Скачать всю историю из удалённого репозитория</h4>
+							<code>git fetch</code>
+						</div>
+						<div class="border-b">
+							<h4>Загрузить все изменения локальной ветки в удалённый репозиторий</h4>
+							<code>git push -u origin [ветка]</code>
+						</div>
+						<div class="border-b col-span-2">
+							<h4>Загружает историю из удалённого репозитория и объединяет её с локальной</h4>
+							<code>git pull</code>
+							<br>
+							<br>
+							<code>pull = fetch + merge</code>
+						</div>
+					</div>
 				</section>
 			</section>
 			<section>
-				<h1>Mermaid for beautiful diagrams!</h1>
-				<div class="mermaid">
-					<pre>
-						erDiagram
-    CUSTOMER ||--o{ ORDER : ""
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
-    ORDER ||--|{ STUDENT : contains
-    STUDENT {
-        int orderNumber
-        string deliveryAddress
-    }
-						</pre>
+				<section data-auto-animate="">
+					<h1 data-id="h1">Это норма</h1>
+					<img
+						src="https://res.cloudinary.com/practicaldev/image/fetch/s--NUSRQ-3J--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.redd.it/5iphhycu0io11.png"
+						alt="" class="r-stretch">
+				</section>
+				<section data-auto-animate="">
+					<h1 data-id="h1">Это норма<span>, но так не надо</span></h1>
+					<img src="https://i.redd.it/qd0ht1mqv9v41.jpg" alt="" class="r-stretch">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Первоначальная настройка</h1>
+				</section>
+				<section>
+					<div class="border-b">
+						<h4>1. Устанавливаем имя, которое будет отображаться в поле автора у выполняемых вами коммитов</h4>
+						<code>
+$ git config --global user.name "Kutikov Pavel"
+					</code>
+					</div>
+					<br>
+					<div class="border-b">
+						<h4>2. Устанавливаем адрес электронной почты, который будет отображаться в информации о выполняемых
+							вами
+							коммитах</h4>
+						<code>
+$ git config --global user.email "kutikovpasha@gmail.com"
+					</code>
+					</div>
+					<pre><code class="shell" data-trim data-noescape>
+commit 43ba095677a0f1806bc5d69fbc8afaf76578904f (HEAD -> test_test, origin/main, origin/HEAD, test-test, main)
+Author: Pasha Kutikov kutikovpasha@gmail.com
+					</code></pre>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Создаем репозиторий на GitHub</h1>
+				</section>
+				<section data-auto-animate="">
+					<h1>Переходим в папку с кодом</h1>
+					<code style="font-size: 2em;">cd "название папки"</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ cd my-code
+
+my-code
+└── factorial.py
+					</code></pre>
+				</section>
+				<section>
+					<h1>Создаем новый репозиторий в текущей папке</h1>
+					<code style="font-size: 2em;">git init</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code  git init
+
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch name
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m name
+Initialized empty Git repository in /home/pasha/my-code/.git/
+
+$ ~/my-code master* ±
+					</code></pre>
+				</section>
+				<section>
+					<h1>Добавляем существующие файлы в стейджинг</h1>
+					<code style="font-size: 2em;">git add .</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master* ± git add .
+					</code></pre>
+					<p><code>.</code> - добавить все файлы в папке</p>
+					<p>Можно и желательно потом добавлять только те файлы, которые подходят под тему коммита</p>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master* ± git add factorial.py
+					</code></pre>
+				</section>
+				<section>
+					<h1>Создаем коммит</h1>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master ± git commit -m "{название коммита}"
+
+[master (root-commit) 81495d6] feature: create factorial calculator
+ 1 file changed, 1 insertion(+)
+ create mode 100644 factorial.py
+					</code></pre>
+					<p><code>-m "..."</code> - название коммита обязательно, должно быть кратким и содержательным</p>
+				</section>
+				<section>
+					<h1>или</h1>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master ± git commit
+					</code></pre>
+					<p>У вас откроется терминальный текстовый редактор</p>
+					<pre><code class="shell" data-trim data-noescape>
+{название коммита}
+
+{описание коммита}
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	modified:   factorial.py
+#
+					</code></pre>
+				</section>
+				<section>
+					<h1>Создаем репозиторий на github</h1>
+					<img class="r-stretch" src="./assets/hub-1.png" alt="">
+				</section>
+				<section>
+					<h1>Создаем репозиторий на github</h1>
+					<img class="r-stretch" src="./assets/hub-2.png" alt="">
+					<p><code>1</code> - пишем название репозитория</p>
+				</section>
+				<section>
+					<h1>Копируем </h1>
+					<img class="r-stretch" src="./assets/hub-3.png" alt="">
+				</section>
+				<section>
+					<h1>Синхронизируем локальный и удаленный репозитории</h1>
+					<h4>1. Добавляем удаленный репозиторий</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master ± git remote add origin git@github.com:ktkv419/my-code.git
+					</code></pre>
+					<h4>2. Меняем название ветки на <code>main</code></h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master ± git branch -M main
+					</code></pre>
+					<h4>3. Пушим свою версию проекта на github</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code main ± git push -u origin main
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 246 bytes | 246.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:ktkv419/my-code.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+					</code></pre>
+				</section>
+				<section>
+					<h1>Проверяем, что репозитории успешно синхронизировались</h1>
+					<img class="r-stretch" src="./assets/hub-4.png" alt="">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Вносим изменения и синхронизируем</h1>
+				</section>
+				<section>
+					<h1>Добавляем существующие файлы в стейджинг</h1>
+					<code style="font-size: 2em;">git add .</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master* ± git add .
+					</code></pre>
+				</section>
+				<section>
+					<h1>Создаем коммит</h1>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master ± git commit -m "{название коммита}"
+
+[master (root-commit) 81495d6] feature: create factorial calculator
+ 1 file changed, 1 insertion(+)
+ create mode 100644 factorial.py
+					</code></pre>
+				</section>
+				<section>
+					<h1>Пушим свою версию проекта на github</h1>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code main ± git push -u origin main
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 246 bytes | 246.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:ktkv419/my-code.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+					</code></pre>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Работаем с существующим репозиторием</h1>
+				</section>
+				<section>
+					<h1>Копируем ссылку репозитория</h1>
+					<img src="./assets/hub-5.png" class="r-stretch" alt="">
+					<p>Если у вас добавлен <code>ssh</code> ключ, то лучше используйте SSH вместо HTTPS</p>
+				</section>
+				<section>
+					<h1>Клонируем репозиторий</h1>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~ git clone https://github.com/ktkv419/my-code.git
+
+[master (root-commit) 81495d6] feature: create factorial calculator
+ 1 file changed, 1 insertion(+)
+ create mode 100644 factorial.py
+
+$ ~ ls
+my-code
+					</code></pre>
+				</section>
+				<section>
+					<h1>Работаем в данном репозитории</h1>
+					<p>Если нужно "переехать" в другой репозиторий:</p>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code master ± git remote add origin {ссылка на ваш репозиторий}
+					</code></pre>
+					<div class="border-y"> Если вы принимаете непосредственное участие в работе над проектом, то лучше
+						использовать fork</div>
+				</section>
+			</section>
+			<section>
+				<h1>homework</h1>
+				<ol>
+					<li>Зарегистрироваться на GitHub</li>
+					<li>Пройти опрос в <a href="https://forms.gle/H1mQS1FxgsZ5pZd86">Google форме</a>
+					</li>
+				</ol>
+				<div>
+					<img alt="https://forms.gle/H1mQS1FxgsZ5pZd86" data-type="qrcode">
 				</div>
-				<h4>Check documentation <a href="https://mermaid.js.org/config/usage.html">here</a>!</h4>
 			</section>
 			<section>
-				<h1>Now supports Nerd font icons!</h1>
-				<div>Nerdy project that adds icons to font itself</div>
-				<h6>Checkout their site for icons like this <a href="https://www.nerdfonts.com/">󰖟</a>!
-				</h6>
+				<section>
+					<h1>Структура работы с git</h1>
+					<h2>GitFlow</h2>
+					<p>модель ветвления для работы с системой контроля версий Git, разработанная для удобного управления ветками в
+						больших и средних проектах</p>
+					<div class="mermaid">
+						<pre>
+gitGraph
+							commit
+							branch dev
+							commit
+							branch feature/one
+							commit
+							commit
+							commit
+							checkout dev
+							commit
+							branch feature/two
+							commit
+							commit
+							checkout dev
+							commit
+							merge feature/two
+							merge feature/one
+							checkout main
+							merge dev
+							checkout dev
+							commit
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h1>Основные ветки</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-r"><code>main</code>
+							<p>основная ветка, содержащая стабильную и готовую к выпуску версию продукта</p>
+						</div>
+						<div class="border-y"><code>dev</code>
+							<p>ветка, в которой ведётся основная разработка</p>
+						</div>
+					</div>
+					<div class="mermaid">
+						<pre>
+gitGraph
+							commit
+							branch dev
+							commit
+							commit
+							commit
+							checkout main
+							merge dev
+							checkout dev
+							commit
+							commit
+							checkout main
+							merge dev
+							checkout dev
+							commit
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h1>Дополнительные ветки в GitFlow</h1>
+					<div class="grid grid-cols-2 gap-4">
+						<div class="border-b"><code>feature</code>
+							<p>Ветви, создаваемые для работы над отдельной функциональностью</p>
+							<ul>
+								<li>именуются по схеме <code>feature/название-фичи</code></li>
+								<li>создаются от ветки <code>dev</code></li>
+								<li>в конце работы сливаются обратно в <code>dev</code></li>
+							</ul>
+						</div>
+						<div class="border-m"><code>hotfix</code>
+							<p>используются для срочного исправления критических ошибок в продакшн-версии продукта, которые нужно
+								устранить как можно быстрее</p>
+							<ul>
+								<li>именуются по схеме <code>hotfix/название-бага</code></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="mermaid">
+						<pre>
+gitGraph
+							commit
+							branch dev
+							commit
+							branch feature/one
+							commit
+							commit
+							commit
+							checkout dev
+							commit
+							branch feature/two
+							commit
+							commit
+							checkout dev
+							commit
+							merge feature/two
+							merge feature/one
+							checkout main
+							merge dev
+							checkout dev
+							commit
+							checkout main
+							commit
+							branch hotfix/unresponsive-ui
+							commit
+							checkout main
+							merge hotfix/unresponsive-ui
+						</pre>
+					</div>
+				</section>
 			</section>
 			<section>
-				<h1>Now supports automatic QRCode generation!</h1>
-				<div>With GoQR you can just add data-type and alt attributes to your <code
-						class="html">&lt;img alt="https://goqr.me/" data-type="qrcode" / &gt;</code> tag!</div>
-				<img class="r-stretch" alt="https://goqr.me/" data-type="qrcode" />
-				</h6>
+				<section>
+					<h1>danger zone</h1>
+				</section>
+				<section>
+					<h1>git rebase</h1>
+					<div>Используйте для того, чтобы почистить ветку перед мержем в <code>main</code> или
+						<code>dev</code>
+					</div>
+					<br>
+					<div class="border-r">
+						<h5> не используйте rebase на опубликованных ветках</h5>
+					</div>
+				</section>
+				<section>
+					<h1>git rebase</h1>
+					<h4>1. Определите с какого коммита вы работали над этой веткой</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code feature/tests ± git log --oneline
+5f230c7 (HEAD -> feature/tests) sync commit
+8bda223 fix: fix tests for factorial functions
+c4e9e7f dsajdklas djkasldjkl asdjkl
+7978f95 (origin/main, origin/HEAD, main, dev) update: created comment
+81495d6 feature: create factorial calculator
+					</code></pre>
+					<code>$ git rebase -i 81495d</code>
+				</section>
+				<section>
+					<h1>git rebase</h1>
+					<h4>2. Определите, что вы хотите сделать с коммитами</h4>
+					<pre><code class="shell" data-trim data-noescape>
+pick 7978f95 update: created comment
+pick c4e9e7f dsajdklas djkasldjkl asdjkl
+pick 8bda223 fix: fix tests for factorial functions
+pick 5f230c7 sync commit
+					</code></pre>
+					<div class="grid grid-cols-3 gap-4">
+						<div class="border-b">
+							<h5>reword</h5>
+							<p>Изменить сообщение коммита</p>
+						</div>
+						<div class="border-b">
+							<h5>fixup</h5>
+							<p>Объединяет коммит с предыдущим</p>
+						</div>
+						<div class="border-b">
+							<h5>squash</h5>
+							<p>Объединяет коммит с предыдущим и создает на их новый коммит</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h1>git rebase</h1>
+					<h4>2. Определите, что вы хотите сделать с коммитами</h4>
+					<pre><code class="shell" data-trim data-noescape>
+pick 7978f95 update: created comment
+reword c4e9e7f dsajdklas djkasldjkl asdjkl
+pick 8bda223 fix: fix tests for factorial functions
+squash 5f230c7 sync commit
+					</code></pre>
+				</section>
+				<section>
+					<h1>git rebase</h1>
+					<h4>3. Завершите ребейз</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code feature/tests ± git log --oneline
+212584b (HEAD -> feature/tests) Combine two into one
+d3ea25f feat: add tests to factorial function
+7978f95 (origin/main, origin/HEAD, main, dev) update: created comment
+81495d6 feature: create factorial calculator
+					</code></pre>
+				</section>
+				<section>
+					<h1>git cherry-pick</h1>
+					<p>Позволяет выбирать коммиты из другой ветки в текущую</p>
+					<div class="border-r">
+						<h5> не является заменой для merge и rebase</h5>
+					</div>
+					<p>
+					<h6>Когда cherry-pick актуален:</h6>
+					<ol>
+						<li>Вы сделали коммит не на той ветке</li>
+						<li>У вас критический баг в основной ветке</li>
+						<li>Вы работаете в тестовой ветке и вам нужно потестить изменения из другой ветки</li>
+					</ol>
+					</p>
+				</section>
+				<section>
+					<h1>Коммит ded5648 оказался не в той ветке</h1>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code main ± git branch
+  feature/tests
+* main
+
+$ ~/my-code main ± git log --oneline
+ded5648 (HEAD -> main, origin/main, origin/HEAD) change: change logic of factorial function
+212584b (feature/tests) Combine two into one
+d3ea25f feat: add tests to factorial function
+7978f95 update: created comment
+81495d6 feature: create factorial calculator
+					</code></pre>
+					<div class="mermaid">
+						<pre>
+gitGraph
+		commit
+		commit
+		branch feature/tests
+		commit
+		commit
+		checkout main
+		commit
+		checkout feature/tests
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h4>1. Переходим в ветку, где должен был быть коммит</h4>
+					<code>$ git checkout feature/tests</code>
+					<br>
+					<br>
+					<h4>2. Делаем cherry-pick коммита из main</h4>
+					<code>$ git cherry-pick ded5684</code>
+					<div class="mermaid">
+						<pre>
+gitGraph
+		commit
+		commit
+		branch feature/tests
+		commit
+		commit
+		checkout main
+		commit
+		checkout feature/tests
+		commit
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h4>3. Удаляем ненужный коммит из main</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code feature/tests ± git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$ ~/my-code main ± git checkout master
+$ ~/my-code main ± git reset HEAD~1
+					</code></pre>
+					<div class="mermaid">
+						<pre>
+gitGraph
+		commit
+		commit
+		branch feature/tests
+		commit
+		commit
+		commit
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h1>git reflog</h1>
+					<p>просматривает историю изменения голов веток на протяжении вашей работы для поиска коммитов, которые вы
+						могли внезапно потерять, переписывая историю</p>
+					<div>С помощью reflog можно восстановить</div>
+					<ul>
+						<li>branch</li>
+						<li>commit</li>
+					</ul>
+				</section>
+				<section>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/my-code main ± git log --oneline
+a570707 (HEAD -> main, origin/main, origin/HEAD) feat: commit 3
+bb7409e feat: commit 2
+e17d7c5 feat: commit 1
+81495d6 feature: create factorial calculator
+					</code></pre>
+					<div class="mermaid">
+						<pre>
+gitGraph
+		commit
+		commit
+		commit
+		commit
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h4>1. Случайно возвращаем ветку к коммиту e17dc5</h4>
+					<code>$ git reset --hard e17d7c5</code>
+					<br>
+					<div class="mermaid">
+						<pre>
+gitGraph
+		commit
+		commit
+						</pre>
+					</div>
+					<img src="https://media.tenor.com/6uPPCdKYocAAAAAe/panik-kalm.png" width="400" alt="">
+				</section>
+				<section>
+					<h4>
+						2. Обращаемся к reflog
+					</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ main ± git reflog
+e17d7c5 (HEAD -> main) HEAD@{0}: reset: moving to e17d7c5 <----------------
+a570707 (origin/main, origin/HEAD) HEAD@{1}: commit: feat: commit 3
+bb7409e HEAD@{2}: commit: feat: commit 2
+...
+					</code></pre>
+					<br>
+					<br>
+					<h4>3. Восстанавливаем коммит</h4>
+					<code>$ git reset e17d7c5</code>
+					<br>
+					<div class="mermaid">
+						<pre>
+gitGraph
+		commit
+		commit
+		commit
+		commit
+						</pre>
+					</div>
+				</section>
+				<section>
+					<h1>git submodules</h1>
+					<p>Позволяет хранить чужие библиотеки (с контролем версий) в своем репозитории</p>
+					<br>
+					<div class="border-b">Допустим есть библиотека, которая есть на GitHub, но отсутствует в вашем пакетном
+						менеджере</div>
+					<br>
+					<h4>1. Создаем папку под подмодули</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ main ± tree
+.
+├── index.js
+└── lib
+					</code></pre>
+				</section>
+				<section>
+					<h4>2. Добавляем подмодуль к себе в репозиторий</h4>
+					<pre><code class="shell" data-trim data-noescape>
+$ main ± cd lib
+$ main ± git submodule add https://github.com/lodash/lodash.git
+$ ~/my-code main(+0/-0) ± tree
+.
+├── index.js
+└── lib
+    └── lodash
+        ├── ...
+				...
+					</code></pre>
+				</section>
+				<section>
+					<div class="border-r"> при клонировании репозитория подмодули автоматически НЕ скачиваются, поэтому их нужно
+						инициализировать</div>
+					<pre><code class="shell" data-trim data-noescape>
+$ main ± git clone https://github.com/ktkv419/my-code.git
+$ main ± tree
+.
+├── index.js
+└── lib
+$ main ± git submodule update --init --recursive
+					</code></pre>
+					<div>или</div>
+					<div>используйте флаг <code>recurse-submodules</code>, чтобы автоматически скачивать и подмодули</div>
+					<pre><code class="shell" data-trim data-noescape>
+$ main ± git clone --recurse-submodules https://github.com/ktkv419/my-code.git
+$ ~/my-code main(+0/-0) ± tree
+.
+├── index.js
+└── lib
+    └── lodash
+        ├── ...
+				...
+					</code></pre>
+				</section>
+				<section>
+					<h1>Ищем все изменения строки</h1>
+					<code>git log -L{строка},{строка}:{название файла}</code>
+					<pre><code class="shell" data-trim data-noescape>
+$ ~/homeserver-docker main ± git log -L186,186:docker-compose.yml
+
+commit 7728d452e826b698a8be590c7560ba7cfca98ecc (HEAD -> main, origin/main, origin/HEAD)
+@@ -186,22 +186,1 @@
++    # wireguard:
+
+commit c5afc483322f1165388a5365624b900f1fc7e495
+
+@@ -209,13 +186,22 @@
++    wireguard:
+					</code></pre>
+				</section>
 			</section>
 			<section>
-				<h1>New changes on the way!</h1>
+				<section>
+					<h1>полезные ресурсы</h1>
+				</section>
+				<section>
+					<h1><a href="https://github.com/cyberspacedk/Git-commands">Git шпаргалка</a></h1>
+					<img class="r-stretch" src="./assets/cheatsheet.png" alt="">
+				</section>
+				<section>
+					<h1><a
+							href="https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Создание
+							и добавление SSH ключа</a></h1>
+					<img class="r-stretch" src="./assets/ssh.png" alt="">
+				</section>
+				<section>
+					<h1><a href="https://ohmygit.org/">Oh my git!</a></h1>
+					<h2>Интерактивный git тренажер</h2>
+					<img class="r-stretch" src="./assets/ohmygit.png" alt="">
+				</section>
+				<section>
+					<h1><a href="https://ohmygit.blinry.org/">Oh my git 2!</a></h1>
+					<h2>Интерактивный git тренажер в браузере</h2>
+					<img class="r-stretch" src="./assets/ohmygit2.png" alt="">
+				</section>
 			</section>
 		</div>
 	</div>
@@ -172,22 +1150,22 @@ var foo = {
 		// More info about initialization & config:
 		// - https://revealjs.com/initialization/
 		// - https://revealjs.com/config/
-		
+
 		const colors = {
-    blue0: 'rgb(61, 89, 161)',
-    blue: 'rgb(122, 162, 247)',
-    cyan: 'rgb(125, 207, 255)',
-    magenta: 'rgb(187, 154, 247)',
-    orange: 'rgb(255, 158, 100)',
-    yellow: 'rgb(224, 175, 104)',
-    green: 'rgb(158, 206, 106)',
-    teal: 'rgb(26, 188, 156)',
-    red: 'rgb(255, 117, 127)',
-    red1: 'rgb(219, 75, 75)',
-    fg: 'rgb(192, 202, 245)',
-    bg: 'rgb(26, 27, 38)',
-		transparent: "#00000000"
-};
+			blue0: 'rgb(61, 89, 161)',
+			blue: 'rgb(122, 162, 247)',
+			cyan: 'rgb(125, 207, 255)',
+			magenta: 'rgb(187, 154, 247)',
+			orange: 'rgb(255, 158, 100)',
+			yellow: 'rgb(224, 175, 104)',
+			green: 'rgb(158, 206, 106)',
+			teal: 'rgb(26, 188, 156)',
+			red: 'rgb(255, 117, 127)',
+			red1: 'rgb(219, 75, 75)',
+			fg: 'rgb(192, 202, 245)',
+			bg: 'rgb(26, 27, 38)',
+			transparent: "#00000000"
+		};
 
 		Reveal.initialize({
 			hash: true,
